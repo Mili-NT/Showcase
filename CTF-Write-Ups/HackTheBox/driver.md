@@ -33,7 +33,12 @@ Host script results:
 ```
 Let's start by checking out the website on port 80. Visiting the website shows a prompt for credentials for an "MFP Firmware Update Center", which sounds promising. As is tradition with random login prompts, I gave `Mili 'OR 1==1 --` a go but unfortunately it was not vulnerable.
 
-A few seconds of guessing manually led to a successful authentication with `admin:admin`. The website now shows a printer interface, specifically for **uploading firmware**, which was a bit worrying at first. I was a bit afriad that I was going to have to dive into arcane printer hacking, but I think a file upload vulnerability is much more likely.
+A few seconds of guessing manually led to a successful authentication with `admin:admin`. The website now shows a printer interface, specifically for **uploading firmware**, which was a bit worrying at first. I was a bit afraid that I was going to have to dive into arcane printer hacking, but I think a file upload vulnerability is much more likely.
+I now have 2 main questions:
+1. What is it expecting?
+2. Where is it going?
+
+
 
 ## Initial Compromise
 

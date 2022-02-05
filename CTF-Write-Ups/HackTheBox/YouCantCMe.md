@@ -53,12 +53,12 @@ undefined4 main(void)
 
 {
   int is_correct_key;
-  longlong local_48;
-  longlong local_40;
+  long long local_48;
+  long long local_40;
   undefined4 local_38;
   char *user_input;
-  longlong pointer_to_key;
-  longlong local_20;
+  long long pointer_to_key;
+  long long local_20;
   undefined4 local_18;
   undefined local_14;
   int i;

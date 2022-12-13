@@ -22,6 +22,8 @@ By taking the upper 16 bits of the output of the PRNG, we get the values we need
 import struct
 def byte_conversion(data, flag, encode=False):
     """
+    TODO: Rewrite using pwntools
+    
     This function serves as a wrapper around struct.pack and struct.unpack.
     This is used to encode integers into bytes or decode bytes into integers.
 
